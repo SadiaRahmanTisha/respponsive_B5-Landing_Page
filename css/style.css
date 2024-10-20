@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}	
+
+h3{
+	font-family: "Lobster", sans-serif;
+  	font-weight: 400;
+}
+h1{
+	font-family: "Anton", sans-serif;
+	line-height: 60px;
+}
+h1 span{
+	object-fit: cover;
+	background-image: url(../images/blueline.png);
+}
+.whatsup-btn{
+	background: white;
+	border: 1px solid #27AE60;
+	border-radius: 4px;
+	color: #27AE60;
+	font-size: 16px;
+	padding: 7px 7px;
+}
+.whatsup-btn i{
+	background: #27AE60;
+	color: #fff;
+	border-radius: 50%;
+	padding: 2px 4px;
+
+}
+.call-btn{
+	background: linear-gradient(to right,#0ACEFE, #2699FB);
+	color: #fff;
+	border-radius: 4px;
+	padding: 7px 7px;
+	font-size: 16px;
+	border: none;
+}
+.left-section h6{
+	font-size: 21px;
+	margin-top: 20px;
+}
+.left-section ul{
+	list-style: none;
+}
+
+.left-section ul li i{
+	margin-right: 13px;
+	font-size: 20px;
+	margin-top: 19px;
+}
+.left-section ul li{
+	font-size: 20px;
+	color: black;
+	font-weight: 490;
+}
+
+.left-section-btn button{
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.btn-1{
+	background: linear-gradient(to right,#0ACEFE, #2092f6);
+	color: #fff;
+	padding: 9px 13px;
+	border: none;
+}
+.btn-2{
+	background-color: #fff;
+	padding: 9px 13px;
+	color: rgba(0, 0, 0, 0.733);
+	border: 1px solid rgba(119, 136, 153, 0.386);
+}
+.right-section{
+	border: 1px solid rgba(0, 0, 0, 0.244);
+	padding: 20px;
+}
+
+.right-section h4{
+	font-size: 21px;
+	font-weight: 700;
+}
+ 
+.short h4{
+	color: #2092f6;
+}
+
+.short p{
+	color: rgb(85, 92, 100);
+}
+
+.img{
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+.img img{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	object-fit: cover;
+	object-position: center;
+}
+
+.img-text{
+	position: absolute;
+	top: 20%;
+	left: 33%;
+	transform: translate(-50%, -50%);
+	color: #f6eaea;
+	opacity: 0;
+	transition: all 3s ease;
+	transform: translateY(55px);
+}
+.img:hover .img-text{
+	opacity: 1;
+	transform: translateY(0px);
+}
+.img:hover .image-overlay{
+	opacity: .5;
+	transform: translateY(0px);
+}
+.img-text h3{
+	font-size: 40px;
+}
+.img .image-overlay{
+	background: linear-gradient(to bottom, red, black);
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: 1s;
+	position: absolute;
+}
+.img-text p{
+	font-size: 20px;
+	font-weight: 700;
+	width: 400px;
+}
+.icon{
+	position: absolute;
+	bottom: 2%;
+	left: 42%;
+	transform: translate(-50%, -50%);
+	transition:all 3s ease;
+	transform: translateY(-25px);
+}
+
+.icon i{
+	color: #fff;
+	background: #2092f6cf;
+	padding: 10px 10px;
+	border-radius: 50%;
+	opacity: 0;
+	font-size: 20px;
+	transition: 2s;
+	transform: translateY(25px);
+}
+.img:hover .icon i{
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.icon i:hover{
+	background: red;
+}
+
+
+.slider-content{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.slider-content img{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.card-text{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+.card-text h3,
+.card-text P{
+	color: white;
+	font-weight: 700;
+}
+
+.card-text p{
+	width: 200px;
+}
+.card{
+	height: 400px;
+	margin-left: 20px;
+}
+.card-body{
+	height: 100%;
+}
+.card-text button{
+	background: transparent;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border-bottom: 2px solid rgba(255, 0, 0, 0.549);
+	color: white;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.imge-cont img{
+	height: 400px;
+	transform: translateX(25px);
+	background: #0ACEFE;
+}
+
+
+
+
+
+
+
+
+
+
